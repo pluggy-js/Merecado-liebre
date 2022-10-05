@@ -1,0 +1,52 @@
+#main div {
+    display: flex;
+    flex-direction: column;
+    margin: 2% 10%;
+}
+#main input {
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+}
+
+form{
+    position: relative;
+    padding-top: -100px;
+}
+
+#main button {
+    color: #ffffff;
+    background-color: #1259c3;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+#main .radio {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 15px;
+}
+.radio label {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.radio label p {
+    margin: 1px 15px 0;
+    align-items: center;
+}
+#main h3 {
+    padding-bottom: 15px;
+}
+.checkbox label {
+    display: flex;
+    padding: 10px;
+}
+.checkbox label p {
+    margin: 2px 15px 0;
+}
+
+#main button:hover {
+    background-color: #0022aa;
+}
